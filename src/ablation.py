@@ -488,7 +488,7 @@ def plot_ablation_results(results_dict, results_dir):
 
 
 if __name__ == "__main__":
-    processed_data_path = '/data37/xl693/RADCURE2024_processed'
+    processed_data_path = ''
     device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
     
     # Load Dataset
@@ -500,8 +500,8 @@ if __name__ == "__main__":
     cnn_model = SurvivalPredictionModel(image_in_channels=1, tabular_input_size=tabular_input_size).to(device)
     
     # Load pre-trained weights
-    model_save_path = '/data37/xl693/RADCURE2024_model_checkpoints'
-    model_path = os.path.join(model_save_path, 'model_latest.pth')
+    model_save_path = ''
+    model_path = os.path.join(model_save_path, 'cnn_pretrained_model.pth')
     cnn_model.load_state_dict(torch.load(model_path, map_location=device))
     cnn_model.eval()
 
