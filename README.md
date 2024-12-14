@@ -18,23 +18,8 @@ Predicting patient survival length is a critical aspect of personalized medicine
 
 To set up the environment and install the necessary dependencies, follow these steps:
 
-1. **Clone the Repository**
 
-    ```bash
-    git clone https://github.com/yourusername/graphsage-survival-prediction.git
-    cd graphsage-survival-prediction
-    ```
-
-2. **Create a Virtual Environment**
-
-    It is recommended to use a virtual environment to manage dependencies.
-
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    ```
-
-3. **Install Required Packages**
+1. **Install Required Packages**
 
     Install the necessary Python packages using `pip`:
 
@@ -42,19 +27,12 @@ To set up the environment and install the necessary dependencies, follow these s
     pip install -r requirements.txt
     ```
 
-    *If a `requirements.txt` file is not provided, install the following packages manually:*
-
-    ```bash
-    pip install torch torchvision torch-geometric sklearn pandas numpy matplotlib tqdm
-    ```
-
-    *Note: Ensure that you have the appropriate versions of PyTorch and Torch Geometric compatible with your CUDA version if using GPU acceleration.*
 
 ## Usage
 
 ### Preparing the Data
 
-Ensure that your preprocessed patient data is stored in the specified directory (`/data37/xl693/RADCURE2024_processed`). The data should be organized in `.pkl` files containing image data, tabular features, and survival lengths for each patient.
+Download the sample dataset from repo. The data should be organized in `.pkl` files containing image data, tabular features, and survival lengths for each patient.
 
 ### Running Ablation Studies
 
