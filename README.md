@@ -11,8 +11,6 @@ Predicting patient survival length is a critical aspect of personalized medicine
 - **Multimodal Data Integration**: Combines 3D CT image features with structured clinical data to form comprehensive patient representations.
 - **GraphSAGE Architecture**: Utilizes the GraphSAGE model to aggregate and propagate information across patient nodes based on similarity.
 - **Ablation Studies**: Conducts experiments to assess the impact of different feature modalities (image, tabular) and learning rates on model performance.
-- **Hyperparameter Sensitivity Analysis**: Explores the influence of various hyperparameters on the predictive capabilities of the model.
-- **Reproducible Experiments**: Ensures consistency and reliability through the use of multiple random seeds and detailed experimental configurations.
 
 ## Installation
 
