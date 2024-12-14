@@ -30,7 +30,11 @@ To set up the environment and install the necessary dependencies, follow these s
 
 ### Preparing the Data
 
-Download the sample dataset from repo. The data should be organized in `.pkl` files containing image data, tabular features, and survival lengths for each patient.
+You can either gain access from RADCURE Dataset or download the sample dataset from repo. 
+
+If you gain the data from RADCURE dataset, you need to first use `data_extractor.py` to preprocess the data, and then follow the next step. 
+
+For sample dataset, the data should be organized in `.pkl` files containing image data, tabular features, and survival lengths for each patient. You can directly run `ablation.py` without preprocess the data. 
 
 ### Running Ablation Studies
 
