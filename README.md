@@ -4,7 +4,7 @@
 
 ## Overview
 
-Predicting patient survival length is a critical aspect of personalized medicine, enabling healthcare providers to tailor treatment strategies and improve patient outcomes. This project leverages a Graph Neural Network (GNN)-based approach, specifically the GraphSAGE architecture, to predict patient survival lengths by integrating features extracted from 3D CT images and comprehensive clinical (tabular) data. By modeling patient similarities and interactions within a graph structure, the model captures both individual and contextual information, enhancing predictive accuracy and providing valuable insights for individualized treatment planning.
+Predicting patient survival length is a critical aspect of personalized medicine, enabling healthcare providers to tailor treatment strategies and improve patient outcomes. This project leverages a Graph Neural Network (GNN)-based approach, specifically the GraphSAGE architecture, to predict patient survival lengths by integrating features extracted from 3D CT images and comprehensive clinical (tabular) data. By modeling patient similarities and interactions within a graph structure, the model captures both individual and contextual information.
 
 ## Features
 
